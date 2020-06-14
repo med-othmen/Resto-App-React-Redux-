@@ -1,0 +1,81 @@
+.main {
+ 
+background-color: white;
+margin-top: 1cm;
+padding-top: 0.5cm;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+
+}
+.main > div {
+  font-size: 15px;
+}
+.main > div > p {
+  text-align: center;
+  width: 180px;
+}
+.main > div > img {
+  border-radius: 7px;
+}
+.main > div > h1 {
+  text-align: center;
+}
+.main > div > button {
+  text-align: center;
+}
+.main > div {
+  text-align: center;
+  margin-bottom: 1cm;
+}
+
+.Menu {
+  display: flex;
+}
+.addsection {
+  margin-right: 10cm;
+}
+.InputSide {
+  margin-top: 2cm;
+  display: flex;
+  width: 350px;
+  flex-wrap: wrap;
+  position: fixed;
+}
+
+.InputSide > input {
+  margin-left: 10%;
+  width: 250px;
+  flex-wrap: wrap;
+  margin-top: 1cm;
+  height: 25px;
+}
+
+.BtnAdd {
+  background-color: gray;
+  position: fixed;
+  margin-top: 12cm;
+  width: 150px;
+  margin-left: 2cm;
+}
+
+.titleadd {
+  margin-left: 1cm;
+}
+
+.Item-img {
+  width: 130px;
+}
+
+.item {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.Item-buttom > button {
+  display: flex;
+  flex-direction: column;
+  width: 155px;
+}
