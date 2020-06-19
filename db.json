@@ -1,32 +1,74 @@
 {
   "foods": [
     {
-      "id": 1,
-      "title": "Kamouniya",
-      "description": "La harira est une soupe à base de tomates, de pois-chiches et de lentilles traditionnellement ...",
-      "price": 15,
-      "img": "https://fastly.4sqi.net/img/general/200x200/66379638_WkqsSRnihtHqQywvaVLOK3nSZzhWqGyO5N0N27Q9JJs.jpg"
+      "id": "1",
+      "title": "Beef",
+      "img": "https://www.themealdb.com/images/category/beef.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": "25"
     },
     {
-      "id": 2,
-      "title": "Chorba",
-      "description": "La harira est une soupe à base de tomates, de pois-chiches et de lentilles traditionnellement ...",
-      "price": 7,
-      "img": "https://i.pinimg.com/236x/e6/3c/02/e63c0255b9b9eeeebed37e57386afec8.jpg"
+      "id": "3",
+      "title": "Dessert Sm",
+      "img": "https://www.themealdb.com/images/category/dessert.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
     },
     {
-      "title": "Spaghetti",
-      "description": "Dalieoomùmùm",
-      "img": "https://img.cuisineaz.com/610x610/2013-12-20/i2142-spaghetti-a-la-sauce-tomate.jpg",
-      "price": 9,
-      "id": 3
+      "id": "5",
+      "title": "Miscellaneous",
+      "img": "https://www.themealdb.com/images/category/miscellaneous.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
     },
     {
-      "title": "Pizza",
-      "description": "Italiano",
-      "img": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/AN138-Pizza-732x549-Thumb.jpg?w=756&h=567",
-      "price": "20000",
-      "id": 5
+      "id": "7",
+      "title": "Pork",
+      "img": "https://www.themealdb.com/images/category/pork.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
+    },
+    {
+      "id": "8",
+      "title": "Seafood",
+      "img": "https://www.themealdb.com/images/category/seafood.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
+    },
+    {
+      "id": "9",
+      "title": "Side",
+      "img": "https://www.themealdb.com/images/category/side.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
+    },
+    {
+      "id": "10",
+      "title": "Starter",
+      "img": "https://www.themealdb.com/images/category/starter.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
+    },
+    {
+      "id": "11",
+      "title": "Vegan",
+      "img": "https://www.themealdb.com/images/category/vegan.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
+    },
+    {
+      "id": "13",
+      "title": "Breakfast",
+      "img": "https://www.themealdb.com/images/category/breakfast.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
+    },
+    {
+      "id": "14",
+      "title": "Goat",
+      "img": "https://www.themealdb.com/images/category/goat.png",
+      "description": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
+      "price": 12
     }
   ],
   "Users": [
@@ -40,36 +82,80 @@
       "post": "root"
     },
     {
-      "id": 2,
-      "first_name": "Hamza",
-      "last_name": "Ben ali",
-      "img": "https://www.lesbourgeons.net/wp-content/uploads/2019/02/768px-Crystal_Clear_kdm_user_female.svg_-200x200.png",
-      "email": "user@gmail.com",
-      "password": "user",
-      "post": "user"
-    },
-    {
       "id": 3,
       "first_name": "Khaled",
       "last_name": "Mehrez",
-      "img": "https://www.lesbourgeons.net/wp-content/uploads/2019/02/768px-Crystal_Clear_kdm_user_female.svg_-200x200.png",
+      "img": "https://s4job.com/wp-content/uploads/2017/01/freelanceur-a-s4job.png",
       "email": "khaled@gmail.com",
       "password": "1234",
       "post": "user"
+    },
+    {
+      "first_name": "Houssem",
+      "last_name": "ammar",
+      "img": "https://img.bfmtv.com/c/1256/708/5df/596e93912433a3a43ba2048212676.jpeg",
+      "email": "houssem",
+      "password": "1234",
+      "post": "user",
+      "id": 5
     }
   ],
   "Orders": [
     {
-      "userID": 0,
+      "userID": 4,
       "productsIDs": [
         {
-          "id": 1,
+          "id": "1",
           "quantite": 3
+        },
+        {
+          "id": "2",
+          "quantite": 2
         }
       ],
-      "date": "date aujourdhui",
-      "total": 45,
-      "id": 1
+      "total": 99,
+      "time": "9:37:19",
+      "date": "2020-6-16",
+      "status": "completed step",
+      "id": 1,
+      "UserID": 4
+    }
+  ],
+  "sessions": [
+    {
+      "userID": 3,
+      "time": "8:57:29",
+      "id": 29
+    },
+    {
+      "userID": 4,
+      "time": "9:36:40",
+      "id": 30
+    },
+    {
+      "userID": 1,
+      "time": "9:38:15",
+      "id": 31
+    },
+    {
+      "userID": 4,
+      "time": "9:39:51",
+      "id": 32
+    },
+    {
+      "userID": 3,
+      "time": "10:40:1",
+      "id": 33
+    },
+    {
+      "userID": 5,
+      "time": "20:43:1",
+      "id": 34
+    },
+    {
+      "userID": 1,
+      "time": "20:43:38",
+      "id": 35
     }
   ]
 }

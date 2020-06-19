@@ -1,0 +1,16 @@
+.userflex {
+  justify-content: space-between;
+  width: 250px;
+}
+.Header {
+  background-color: lightcyan;
+  padding: 255px;
+  background-image: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  margin-top: -10cm;
+  margin-bottom: -8.7cm;
+}

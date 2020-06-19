@@ -1,0 +1,13 @@
+.loginform {
+  background-color: white;
+  padding: 12px;
+
+  background-image: url("https://images.pexels.com/photos/3201921/pexels-photo-3201921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Signin {
+  background-color: white;
+}

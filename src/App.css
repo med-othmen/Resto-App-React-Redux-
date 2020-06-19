@@ -1,5 +1,16 @@
-.listofitem{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.listofitem {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.buttonsquantity > div {
+  margin-left: 3cm;
+  display: flex;
+}
+
+.descriptionUSer {
+  background-color: white;
+  width: 410px;
+  height: 110px;
+  overflow: auto;
 }

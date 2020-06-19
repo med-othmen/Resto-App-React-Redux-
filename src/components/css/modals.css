@@ -1,0 +1,24 @@
+.img-user {
+  width: 150px;
+}
+.order-table-lign {
+  display: flex;
+  justify-content: space-between;
+}
+.listProductCard {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-basis: 900px;
+}
+
+.listProductCard > div > img {
+  border-radius: 10px;
+  margin: 10px;
+  border: solid lightblue 1px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
